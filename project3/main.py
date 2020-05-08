@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     # Add the ingredient parser arguments
     parser.add_argument("--ingredient", action='append',type=str, required=True, nargs='+',
-        help="The incident summary url.")
+        help="The ingredient(s) the user has on hand.")
     
     args = parser.parse_args()
     if args.ingredient:
